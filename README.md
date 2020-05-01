@@ -1,5 +1,5 @@
-# base-cpp-app
-A carcass for small cpp projects
+# baselia-basic-cpp-app
+A template for small C++ projects
 
 ## requirements:
 * [Cmake](https://cmake.org/) ~3.10

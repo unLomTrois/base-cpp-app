@@ -12,5 +12,5 @@ Application::~Application() {
 }
 
 void Application::run() {
-    std::cout << "hello base" << std::endl;
+    std::cout << "hello baselia" << std::endl;
 }
