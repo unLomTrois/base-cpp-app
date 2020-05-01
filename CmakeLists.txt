@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+
+# set the project name and version
+project(base-cpp-app VERSION 0.1)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+# set properties
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_FLAGS "-Wall -Wextra")
+set(CMAKE_CXX_FLAGS_DEBUG "-g")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3")
+
+# go down tree
+add_subdirectory(./src/)

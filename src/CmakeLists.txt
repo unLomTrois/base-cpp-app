@@ -1,0 +1,6 @@
+include_directories(${PROJECT_SOURCE_DIR}/include/)
+
+add_library(application STATIC application.cpp)
+
+add_executable(base-cpp-app main.cpp)
+target_link_libraries(base-cpp-app application)
